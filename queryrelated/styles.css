@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#info-pane {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    padding: 1em;
+    background: white;
+    max-height: 600px;
+    max-width: 400px;
+}
+
+.fixed-table-container {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 1000;
+    padding: 1em;
+    background: white;
+}
+
+.fixed-table-body {
+    max-height: 600px;
+    max-width: 400px;
+}
+
+#hidden {
+    display: none;
+}
